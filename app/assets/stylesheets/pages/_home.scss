@@ -12,10 +12,22 @@ h1 {
   padding: 30px;
 }
 .image {
+  position: relative;
   margin-top: 50px;
   width: 100%;
-  background-image: image_url("pixart.PNG");
+  background-image: image_url("Day_Dream_3.png");
   background-size: cover;
   background-position: center;
   padding: 170px 0;
+  height: 400px;
+}
+.my_work {
+  position: absolute;
+  width: 450px;
+  background-image: image_url("MyWork.png");
+  background-size: cover;
+  background-position: center;
+  height: 350px;
+  right: 450px;
+  bottom: -280px;
 }
