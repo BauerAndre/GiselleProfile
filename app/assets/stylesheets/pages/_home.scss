@@ -23,11 +23,21 @@ h1 {
 }
 .my_work {
   position: absolute;
-  width: 450px;
-  background-image: image_url("MyWork.png");
+  width: 350px;
+  background-image: image_url("MyWork4.png");
   background-size: cover;
   background-position: center;
-  height: 350px;
-  right: 450px;
-  bottom: -280px;
+  height: 300px;
+  right: 540px;
+  bottom: -230px;
+}
+.biography {
+  position: absolute;
+  width: 250px;
+  background-image: image_url("MyWork5.png");
+  background-size: cover;
+  background-position: center;
+  height: 220px;
+  right: 1150px;
+  bottom: 230px;
 }
